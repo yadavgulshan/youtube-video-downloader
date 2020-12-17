@@ -1,7 +1,7 @@
 import json
 from youtubesearchpython import SearchVideos
 import os
-name = "bewafa tera maasom chehra"
+name = input("Name of video to download.")
 search_link = f"https://www.youtube.com/search?q={name.replace(' ','%20')}"
 
 
